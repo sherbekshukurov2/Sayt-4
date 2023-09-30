@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #1A1A1A;
+}
+
+header {
+    border-bottom: 1px solid white;
+
+}
+
+
+.header-content {
+    height: 90px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+
+    color: #FFF;
+    font-family: Helvetica ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 642.857% */
+}
+
+
+/* birinchi section */
+
+
+#birinchi {
+    background: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+}
+
+h1 span {
+    color: #FFF;
+    font-family: Helvetica ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+}
+
+
+.birinchi-title {
+    width: 1100px;
+    margin: 0 auto;
+
+    padding: 80px 0 16px;
+}
+
+
+.small-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.2px;
+    width: 595px;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+.birinchi-btn {
+    margin: 40px auto 70px;
+    width: 220px;
+}
+
+.birinchi-btn button {
+    border-radius: 43px;
+    background: #34C759;
+    width: 220px;
+    height: 72px;
+
+
+    border: none;
+
+
+    color: var(--black, #1A1A1A);
+    text-align: center;
+    font-family: Helvetica ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+
+
+.contact-cards {
+    /* padding-bottom: 160px; */
+}
+
+
+.contact-card {
+    width: 215px;
+}
+
+
+
+.card-info {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+}
+
+.card-info2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    /* 428.571% */
+}
+/* ikkinchi sektion */
+#ikkinchi{
+background-image: url(img/ABOUT.png);
+background-position-x: center;
+position: relative;
+background-position-y: center;
+background-repeat: no-repeat;
+}
+
+
+
+.text-position{
+    color: #D9D9D9;
+    width: 1800px;
+font-family: Helvetica;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 200% */
+letter-spacing: 6px;
+padding: 105px 280px  101px 302px; 
+}
+.text-small1{
+    color: #A6A6A6;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    width: 734px;
+    margin: 0 auto;
+}
+.images ul{
+    display: flex;
+    gap: 61px;
+}
+.images{
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+}
+.white{
+    padding-top: 104px; 
+}
+.images ul li {
+    gap: 61px;
+}
+#polniy{
+    border-radius: 6px;
+background: #252525;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+width: 1350px;
+margin: 0 auto;
+height: 736px;
+flex-shrink: 0;
+}
+.textbig{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica ;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+padding: 30px 0 80px;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+text-transform: capitalize;
+}
+#tortinchi{
+    background-image: url(img/EVENTS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   padding-top: 60px;
+}
+.hr1{
+    width: 60px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #34C759;
+    margin-left: 648px;
+    margin-bottom: 40px;
+}
+.textpick{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.275px;
+    text-transform: capitalize;
+    width: 207px;
+    padding: 20px 0 15px 24px;
+height: 32px;
+flex-shrink: 0;
+
+}
+.cardw{
+    width: 255px;
+height: 206px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #252525;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+justify-content: space-around;
+}
+.fulcardw{
+    gap: 30px;
+}
+.hr2{
+    width: 56px;
+height: 2px;
+flex-shrink: 0;
+background: #34C759;
+margin-left: 25px;
+margin-top: 35px;
+}
+.text-mall{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Helvetica;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: -0.162px;
+    width: 207px;
+    padding: 20px 0px 20px 20px;
+}
+.fulcardw{
+ padding: 20px 0px 20px 8px;
+}
+.carde{
+    border-radius: 6px;
+    background: var(--primary, #34C759);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+    width: 255px;
+height: 206px;
+flex-shrink: 0;
+}
+.text-malle{
+    color: #191919;
+font-family: Helvetica ;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 138.462% */
+letter-spacing: -0.162px;
+width: 200px;
+padding: 20px 0px 20px 20px;
+}
+.textpicke{
+    color: #191919;
+    padding: 20px 0 15px 24px;
+font-family: Helvetica;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.275px;
+text-transform: capitalize;
+width: 207px;
+height: 32px;
+flex-shrink: 0;
+}
+.hr3{
+    width: 56px;
+height: 2px;
+flex-shrink: 0;
+background: #191919;
+margin-left: 25px;
+margin-top: 35px;
+}
+.text-bigger{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+padding: 90px;
+}
+#oltinchi{
+    background-image: url(img/EVENTS\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hr4{
+    width: 60px;
+height: 2px;
+flex-shrink: 0;
+background: #34C759;
+margin-left: 520px;
+margin-bottom: 20px;
+}
+.orderbtn{
+    width: 100px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 43px;
+border: none;
+background-color: #34C759;
+}
+.orderbtn{
+    color: var(--dark-gray, #252525);
+text-align: center;
+font-family: Helvetica;
+font-size: 10px;
+font-style: normal;
+font-weight: 900;
+line-height: 40px; /* 400% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.number{
+    padding-top: 1px;
+    color: #B3B3B3;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px; /* 250% */
+letter-spacing: 1.5px;
+}
+.starts{
+    width: 120px;
+height: 19px;
+}
+.polli{
+    padding-top: 6px;
+}
+.card1{
+    border-radius: 6px;
+background: #252525;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+}
+.card-title1{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #D9D9D9;
+font-family: Helvetica;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 93.75% */
+width: 290px;
+}
+.card-title1 p{
+    color: #A4A8B2;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+letter-spacing: -0.15px;
+width: 290px;
+}
+.card-text1{
+    color: #85878C;
+font-family: Helvetica;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 138.462% */
+letter-spacing: -0.162px;
+width: 250px;
+padding-left: 10px;
+}
+.ikkinchi-qator{
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.text-chef{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+text-transform: capitalize;
+padding-top: 10px;
+}
+#sakkizinchi{
+    background-image: url(img/chefs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.texts{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.225px;
+padding-left:15px;
+padding-top:13px;
+}
+.texts p{
+    color: rgba(255, 255, 255, 0.50);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+letter-spacing: -0.15px;
+}
+#toqqizinchi{
+    padding-top: 30px;
+}
+.img-text{
+    margin: 0 auto;
+}
+.burger{
+    width: 160px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.limon{
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.un{
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.bozor{
+    width: 160px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.stol{
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.x1{
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.x{
+    width: 160px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.salat{
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.sabzavot{
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.fullimages{
+    padding-left: 4px;
+}
+.textfrom{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+}
+#oninchi{
+    background-image: url(img/rec.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btnfor button{
+    color: #FFF;
+    background-color: #191919;
+    border: none;
+text-align: center;
+font-family: Helvetica;
+font-size: 10px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px; /* 250% */
+letter-spacing: 1.25px;
+text-transform: uppercase;
+}
+.btnfor{
+   padding: 60px 240px 60px 200px;
+}
+.date{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+padding: 0 220px 25px 204px;
+}
+.textlorem{
+    color: #FFF;
+text-align: center;
+font-family: Helvetica;
+width: 411px;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 166.667% */
+padding: 0 30px 45px 84px   ;
+}
+.textname{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+padding: 0 202px 60px 198px;
+}
+.son{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 250% */
+}
+.fullicon{
+gap: 10px;
+padding: 0 202px 60px 185px;
+}
+.card-1{
+width: 350px;
+padding: 25px 26px 25px 10px;
+height: 350px;
+flex-shrink: 0;
+background-color: #262626;
+border: #252525 solid 1px;
+border-radius: 10px;
+filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.10));
+}
+.btn-tw button{
+    color: #737373;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0 10px 0 10px;
+    line-height: 40px; /* 400% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #262626;
+    border: #444444 1px solid;
+    border-radius: 20px;
+}
+.tw li{
+padding-top: 6px;
+width: 106px;
+color: #BFBFBF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+.cardlar-for{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.hr5{
+    width: 340px;
+height: 2px;
+flex-shrink: 0;
+background: #303030;
+}
+.text-data{
+    width: 280px;
+    color: #737373;
+font-family: Helvetica;
+padding: 20px 40px 10px 30px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+.text-cen{
+    width: 280px;
+    color: rgba(255, 255, 255, 0.70);
+font-family: Helvetica;
+padding: 0 0 10px 30px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+.a a{
+    width: 280px;
+    color: var(--primary, #34C759);
+font-family: Helvetica;
+font-size: 14px;
+padding: 0 0 10px 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+text-decoration: none;
+}
+.birimg{
+    width: 120px;
+height: 120px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.ikkiimg{
+    width: 115px;
+height: 120px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.img-for {
+  
+}
+.img1{
+    padding: 0 20px 0 0;
+  
+}
+.uchimg{
+    width: 100px;
+height: 120px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.ikkinchiqato{
+    padding-left: 20px;
+}
+footer{
+    width: 1440px;
+height: 275px;
+flex-shrink: 0;
+background-color: #262626;
+}
+.tepa{
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.hr6 hr{
+    width: 1440px;
+    fill: #303030;
+height: 2px;
+flex-shrink: 0;
+background-color: #303030;
+}
+.logo1{
+padding-left: 580px;
+}
+.logo1 .text-finish{
+    padding-left: 0px;
+}
+.text-finish{
+    display: flex;
+height: 24px;
+flex-direction: column;
+flex-shrink: 0;
+color: #737373;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 500% */
+
+}
